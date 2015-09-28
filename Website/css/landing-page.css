@@ -123,6 +123,15 @@ h6 {
     background-size: cover;
 }
 
+.bannertop {
+    padding: 150px 0;
+    color: #f8f8f8;
+    background: url(../img/bsyslogo.png) no-repeat center center;
+    width:100%%;
+    height: auto;
+    /*background-size: cover;*/
+}
+
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
