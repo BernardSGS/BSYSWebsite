@@ -10,6 +10,11 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.outer {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
