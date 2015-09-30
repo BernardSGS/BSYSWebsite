@@ -124,12 +124,12 @@ h6 {
 }
 
 .bannertop {
-    padding: 150px 0;
+    padding: 100px;    
+    /*height: auto;*/
+    /*background-size: cover;*/    
     color: #f8f8f8;
-    background: url(../img/bsyslogo.png) no-repeat center center;
-    width:100%%;
-    height: auto;
-    /*background-size: cover;*/
+    background: url(../img/tempbanner2.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .banner h2 {

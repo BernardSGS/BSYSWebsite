@@ -1,6 +1,6 @@
 document.write( 
   "<a  name='contact'></a> ",
-   " <div class='banner'> ",
+   " <div class='bannertop'> ",
 "        <div class='container'> ",
  "           <div class='row'> ",
 "                <div class='col-lg-6'> ",
@@ -8,10 +8,10 @@ document.write(
  "               <div class='col-lg-6'> ",
   "                  <ul class='list-inline banner-social-buttons'> ",
    "                     <li> ",
-    "                        <a href='https://twitter.com/SBootstrap' class='btn btn-default btn-lg'><i class='fa fa-twitter fa-fw'></i> <span class='network-name'>Twitter</span></a> ",
+    "                        <a href='#' class='btn btn-default btn-lg'><i class='fa fa-twitter fa-fw'></i> <span class='network-name'>Twitter</span></a> ",
      "                   </li> ",
       "                  <li> ",
-       "                     <a href='https://github.com/IronSummitMedia/startbootstrap' class='btn btn-default btn-lg'><i class='fa fa-github fa-fw'></i> <span class='network-name'>Github</span></a> ",
+       "                     <a href='#' class='btn btn-default btn-lg'><i class='fa fa-github fa-fw'></i> <span class='network-name'>Github</span></a> ",
         "                </li> ",
          "               <li> ",
           "                  <a href='#' class='btn btn-default btn-lg'><i class='fa fa-linkedin fa-fw'></i> <span class='network-name'>Linkedin</span></a> ",
@@ -22,3 +22,5 @@ document.write(
 "        </div> ",
  "       <!-- /.container --> ",
   "   </div> ");
+
+// image for banner is in landing-page.css under the bannertop class.
