@@ -36,7 +36,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg1.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -128,8 +128,9 @@ h6 {
     /*height: auto;*/
     /*background-size: cover;*/    
     color: #f8f8f8;
-    background: url(../img/tempbanner2.jpg) no-repeat center center;
+    background: url(../img/banner2.png) no-repeat  ;
     background-size: cover;
+    height: 300px;
 }
 
 .banner h2 {
