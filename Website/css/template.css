@@ -1,5 +1,5 @@
 .outer{
-margin-top: 53px;
+margin-top: 25px;
 /*padding-right: 15px;
 padding-left: 15px;*/
 margin-right: auto;
@@ -13,6 +13,7 @@ background: rgba(214, 255, 249, 0.86);
 color: inherit;
 padding-right: 15px;
 padding-left: 15px;
+padding-bottom: 15px;
 color: black;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
@@ -37,6 +38,17 @@ padding-top: 1px;
 border-bottom: 2px solid #CBD8EC;
 border-left: 2px solid #CBD8EC;
 background: rgba(48, 119, 228, 0.62) none repeat scroll 0% 0%;
+}
+
+.between {
+height: 50px; 
+clear: both;
+color: #FFF;
+font-size: 10px;
+font-weight: bold;
+padding-left: 10px;
+padding-top: 1px;
+background: white none repeat scroll 0% 0%;	
 }
  
 

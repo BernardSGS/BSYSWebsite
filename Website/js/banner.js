@@ -11,7 +11,7 @@ document.write(
     "                        <a href='https://twitter.com/biosignalsys' class='btn btn-default btn-lg'><i class='fa fa-twitter fa-fw'></i> <span class='network-name'>Twitter</span></a> ",
      "                   </li> ",
       "                  <li> ",
-       "                     <a href='https://www.facebook.com/groups/BiosignalSystems/' class='btn btn-default btn-lg'><i class='fa fa-facebook'></i> <span class='network-name'>acebook</span></a> ",
+       "                     <a href='https://www.facebook.com/groups/BiosignalSystems/' class='btn btn-default btn-lg'><i class='fa fa-facebook'></i> <span class='network-name'>  Facebook</span></a> ",
         "                </li> ",
          "               <li> ",
           "                  <a href='https://ca.linkedin.com/pub/bsys-concordia/106/631/47/fr' class='btn btn-default btn-lg'><i class='fa fa-linkedin fa-fw'></i> <span class='network-name'>Linkedin</span></a> ",
