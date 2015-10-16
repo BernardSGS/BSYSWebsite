@@ -1128,11 +1128,11 @@ img {
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner > .item > img, video
+.carousel-inner > .item > a > img, video {
   display: block;
   max-width: 100%;
-  height: auto;
+  /*height: 600px;*/
 }
 .img-rounded {
   border-radius: 6px;

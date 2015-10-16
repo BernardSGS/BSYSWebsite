@@ -55,3 +55,8 @@ background: white none repeat scroll 0% 0%;
 table,th,td {
    border-collapse: collapse;
 }
+
+
+.divider{
+height: 20px;
+}

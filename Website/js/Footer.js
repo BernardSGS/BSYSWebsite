@@ -9,7 +9,7 @@ document.write(
         "                </li> ",
          "               <li class='footer-menu-divider'>&sdot;</li> ",
           "              <li> ",
-           "                 <a href='whoami.html'>About</a> ",
+           "                 <a href='aboutus.html'>About</a> ",
             "            </li> ",
              "           <li class='footer-menu-divider'>&sdot;</li> ",               
                   "      <li> ",
