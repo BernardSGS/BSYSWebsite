@@ -9,6 +9,17 @@ border-radius: 15px;
 background: rgba(214, 255, 249, 0.86);
 }
 
+.centered {
+margin-top: 25px;
+/*padding-right: 15px;
+padding-left: 15px;*/
+margin-right: auto;
+margin-left: auto;
+width: 700px;
+border-radius: 15px;
+
+}
+
 .inner{
 color: inherit;
 padding-right: 15px;
