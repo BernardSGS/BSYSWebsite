@@ -24,7 +24,7 @@ document.write(
                   "      <a href='getInvolved.html'>Get Involved</a> ",
            "         </li> ",
             "        <li> ",
-             "           <a href='under_construction.html'>Projects</a> ",
+             "           <a href='projects.html'>Projects</a> ",
               "      </li> ",
                "     <li> ",
                 "        <a href='contactus.html'>Contact Us</a> ",

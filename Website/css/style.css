@@ -66,8 +66,16 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }
+#nav1 { width: 410px; margin-top: 20px; }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+#nav1 ul{
 	list-style: none;
 	display: block;
 	margin: 0 auto;
@@ -80,9 +88,20 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
+
+#nav1 li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 21px;
+}
+
 #nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
+
+#nav1 li a { color: #fff; opacity:0.8; font-size: 18px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav1 li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav1 li a:hover { color: #fff; opacity:1;  }
 
 
 
@@ -93,7 +112,19 @@ a.rpanel:hover{ color: #fff; }
    font-weight: normal;
    font-size: 30px;
   text-align: left;
-  margin: 50px auto;
+  
+}
+
+.mod {
+	    -moz-column-count: 2 ;
+    -webkit-column-count: 2 ;
+    column-count: 2 ;
+    -moz-column-gap: 40px ;
+    -webkit-column-gap: 40px ;
+    column-gap: 40px ;
+    -moz-column-rule: 4px hidden #FF0000 ;
+    -webkit-column-rule: 4px hidden #FF0000 ;
+    column-rule: 4px hidden #FF0000 ;
 }
    
  .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
@@ -102,8 +133,21 @@ a.rpanel:hover{ color: #fff; }
 #christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
 #ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
-#snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -54px; left: -102px; }
-#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -33px;  right: -100px; }
+/*#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -33px;  right: -100px; }*/
+
+.logob {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.logob div {
+  background: black;
+  margin: 0 auto;
+  color: white;
+  padding: 15px;
+  margin: 5px auto;
+}
 
 
 
@@ -135,7 +179,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	background:url('../img/neurones.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -146,14 +190,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 200px 0;
+	padding: 50px 0;
 }
 
 #slide3{
-	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/l_neurons.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	padding: 170px 0 0 0;	
@@ -163,7 +207,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: 600px;
 	padding: 200px 0;
 }
 
@@ -175,6 +219,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	color: #fff;
 	background-size: cover;
 }
+
+
 
 
 /*= FOOTER 
