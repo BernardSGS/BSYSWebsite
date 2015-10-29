@@ -65,8 +65,8 @@ a.rpanel:hover{ color: #fff; }
 	margin-top: 30px;
 }
 
-#nav { width: 410px; float: right; margin-top: 20px; }
-#nav1 { width: 410px; margin-top: 20px; }
+#nav { width: 410px; float: right; margin-top: 9px; }
+#nav1 { width: 410px; margin-top: 15px; }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
 	list-style: none;
@@ -95,7 +95,7 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a { color: #fff; opacity:0.6; font-size: 14px; text-decoration: none; font-family: 'Wellfleet'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
@@ -119,6 +119,18 @@ a.rpanel:hover{ color: #fff; }
 	    -moz-column-count: 2 ;
     -webkit-column-count: 2 ;
     column-count: 2 ;
+    -moz-column-gap: 40px ;
+    -webkit-column-gap: 40px ;
+    column-gap: 40px ;
+    -moz-column-rule: 4px hidden #FF0000 ;
+    -webkit-column-rule: 4px hidden #FF0000 ;
+    column-rule: 4px hidden #FF0000 ;
+}
+
+.modfred {
+	    -moz-column-count: 3 ;
+    -webkit-column-count: 3 ;
+    column-count: 3 ;
     -moz-column-gap: 40px ;
     -webkit-column-gap: 40px ;
     column-gap: 40px ;
@@ -193,7 +205,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 50px 0;
+	padding: 180px 0;
 }
 
 #slide3{
@@ -212,14 +224,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide5{
-	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/brainz.jpg) 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;
 	background-size: cover;
 }
-
+/*<!-- http://hsc.com/Portals/0/images/Blog/uploads/2014/02/android-open-source.png */
 
 
 
