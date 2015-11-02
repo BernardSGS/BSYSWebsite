@@ -1,23 +1,27 @@
 .outer{
-margin-top: 25px;
-/*padding-right: 15px;
-padding-left: 15px;*/
-margin-right: auto;
-margin-left: auto;
-width: 850px;
+width: 60%;
+margin:   25px  auto 0px  ;  
+display: block; 
+position: relative;
+min-width: 310px;
 border-radius: 15px;
 background: rgba(214, 255, 249, 0.86);
 }
 
 .centered {
 margin-top: 25px;
-/*padding-right: 15px;
-padding-left: 15px;*/
-margin-right: auto;
-margin-left: auto;
-width: 700px;
+padding-right: 15px;
+padding-left: 15px;
+width: 50%;
+margin: 0 auto;  
+display: block; 
+position: relative;
 border-radius: 15px;
 
+}
+@media only screen 
+and (min-device-width : 320px) {
+.centered { width :80%; background-color:#666666 !important;}
 }
 
 .inner{
