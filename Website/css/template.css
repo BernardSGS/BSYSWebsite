@@ -30,11 +30,15 @@ padding-right: 15px;
 padding-left: 15px;
 padding-bottom: 15px;
 color: black;
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
 line-height: 1.42857;
 border-radius: 15px;
 }
+
+.inner p {
+	color: #3C3C3C;
+}
+
 
 .img-template {
 border-radius: 5px;
